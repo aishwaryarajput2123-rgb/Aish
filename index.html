@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aishwarya Singh's personal portfolio showcasing education, skills and projects.">
+  <title>Aishwarya Singh | Personal Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home" aria-label="Aishwarya Singh home">Aishwarya<span>.</span></a>
+    <button class="menu" type="button" aria-label="Open navigation" aria-expanded="false" onclick="toggleMenu()">☰</button>
+    <nav id="navbar" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow"><span class="status-dot"></span> PERSONAL PORTFOLIO</p>
+        <p class="intro">Hello, I'm</p>
+        <h1>Aishwarya <span>Singh</span></h1>
+        <h2>Computer Science Student</h2>
+        <p class="hero-description">Welcome to my portfolio. I am a computer science student interested in technology, programming and building meaningful digital experiences.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore My Work <span>↗</span></a>
+          <a class="button secondary" href="#contact">Get in Touch</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Aishwarya Singh initials">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="initials-card"><span>AS</span><small>AISHWARYA SINGH</small></div>
+        <span class="decor decor-one">✦</span><span class="decor decor-two">✧</span>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-heading"><p class="eyebrow">GET TO KNOW ME</p><h2>About <span>Me</span></h2></div>
+      <div class="info-card about-card">
+        <p>I am Aishwarya Singh, a student of Computer Science and Engineering. I enjoy learning new technologies, strengthening my programming skills and exploring how technology can solve real-world problems.</p>
+        <p>This portfolio presents my academic background, technical skills and selected projects as part of my college work.</p>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="section-heading"><p class="eyebrow">MY ACADEMIC BACKGROUND</p><h2>My <span>Education</span></h2></div>
+      <article class="info-card education-card">
+        <div class="education-mark">01</div>
+        <div><h3>B.Tech – Computer Science & Engineering</h3><p class="accent-text">CC + AI</p><p>Shri Ramswaroop Memorial University</p></div>
+      </article>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading"><p class="eyebrow">WHAT I WORK WITH</p><h2>Technical <span>Skills</span></h2></div>
+      <div class="skills-grid">
+        <article class="skill-card"><span class="skill-number">01</span><h3>HTML5</h3><p>Structuring clear and accessible web pages.</p></article>
+        <article class="skill-card"><span class="skill-number">02</span><h3>CSS3</h3><p>Styling responsive and visually engaging layouts.</p></article>
+        <article class="skill-card"><span class="skill-number">03</span><h3>JavaScript</h3><p>Adding interactive behaviour to web pages.</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading"><p class="eyebrow">SELECTED ACADEMIC WORK</p><h2>My <span>Projects</span></h2></div>
+      <div class="projects-grid">
+        <article class="project-card"><div class="project-top"><span>PROJECT 01</span><span class="project-icon">⌁</span></div><h3>Signal System Analysis</h3><p>An academic project focused on the analysis of signals and systems.</p><div class="tags"><span>Academic Project</span><span>Analysis</span></div></article>
+        <article class="project-card"><div class="project-top"><span>PROJECT 02</span><span class="project-icon">◈</span></div><h3>Arrhythmia Beat Classification</h3><p>An academic project focused on classifying heartbeats related to arrhythmia.</p><div class="tags"><span>Academic Project</span><span>Classification</span></div></article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-heading"><p class="eyebrow">LET'S CONNECT</p><h2>Contact <span>Me</span></h2></div>
+      <div class="info-card contact-card">
+        <p>Thank you for visiting my portfolio. Feel free to contact me through email.</p>
+        <a class="email-link" href="mailto:Aishwaryarajput2123@gmail.com">Aishwaryarajput2123@gmail.com <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer><a class="footer-logo" href="#home">Aishwarya<span>.</span></a><p>Designed & developed by Aishwarya Singh</p><small>© <span id="year"></span> Aishwarya Singh. All rights reserved.</small></footer>
+  <script src="script.js"></script>
+</body>
+</html>
